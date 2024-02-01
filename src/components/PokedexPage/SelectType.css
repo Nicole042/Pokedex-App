@@ -1,0 +1,8 @@
+select {
+    width: 40%;
+}
+
+option:hover,
+option:checked {
+    background-color: red;
+}

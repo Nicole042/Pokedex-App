@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.header_red {
+    background-color: red;
+    width: 100%;
+    height: 60%;
+}
+
+.header_black {
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+.header_img {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.black1 {
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    position: relative;
+}
+
+.white {
+    height: 38px;
+    width: 38px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.black2 {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
